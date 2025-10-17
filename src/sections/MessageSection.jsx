@@ -47,7 +47,6 @@ const MessageSection = () => {
             scrollTrigger:{
                 trigger:".msg-text-scroll",
                 start:"top 60%",
-               
             }
         })  
 
@@ -55,7 +54,6 @@ const MessageSection = () => {
             duration:1,
             clipPath:"polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)",
             ease: "circ.inOut"
-
         })
 
         const paragraphTl = gsap.timeline({
