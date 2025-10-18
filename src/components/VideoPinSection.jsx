@@ -33,7 +33,7 @@ const VideoPinSection = () => {
       <div style={{
         clipPath: isMobile ? "circle(100% at 50% 50%)" : "circle(6% at 50% 50%)"
       }} className="size-full video-box ">
-        <video src="/videos/pin-video.mp4" playsInline muted loop autoPlay></video>
+        <video src="/videos/pin-video.mp4" playsInline muted loop autoPlay />
 
         <div className="abs-center md:scale-100 scale-200">
             <img src="/images/circle-text.svg" alt="" className="spin-circle" />
